@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Wednesday, 25 November 2026 - world news front page</title>
+<style>
+  :root { --paper: #f3ead6; --ink: #141210; --red: #a8201a; --grey: #8d8676; --land: #e2d8c1; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1024px; height: 1024px; background: var(--paper); overflow: hidden; }
+  body { color: var(--ink); font-family: Georgia, 'Times New Roman', serif; padding: 12px 20px 0; }
+  .strip { display: flex; justify-content: space-between; font: bold 13px/18px Helvetica, Arial, sans-serif; letter-spacing: 2.5px; }
+  .date { font-size: 62px; line-height: 72px; font-weight: bold; text-align: center; letter-spacing: -1px; white-space: nowrap; }
+  .double { border-top: 4px solid var(--ink); border-bottom: 1px solid var(--ink); height: 8px; }
+  .lead { display: grid; grid-template-columns: 64px 1fr 150px; column-gap: 14px; align-items: center; padding: 8px 0 9px; }
+  .num { width: 44px; height: 44px; border-radius: 50%; background: var(--red); color: #fff; font: bold 27px/44px Helvetica, Arial, sans-serif; text-align: center; }
+  .lead .num { width: 60px; height: 60px; font-size: 38px; line-height: 60px; }
+  .kicker { font: bold 13px/17px Helvetica, Arial, sans-serif; letter-spacing: 1.6px; color: var(--red); text-transform: uppercase; }
+  .lead h1 { font-size: 45px; line-height: 47px; letter-spacing: -0.8px; }
+  .lead p { font-size: 20px; line-height: 26px; margin-top: 3px; }
+  .lead svg { width: 150px; height: 118px; }
+  .rule { border-top: 1px solid var(--ink); }
+  #map { display: block; width: 984px; height: 334px; }
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 2px solid var(--ink); }
+  .card { padding: 7px 10px 6px; border-left: 1px solid var(--ink); border-bottom: 1px solid var(--ink); height: 198px; overflow: hidden; }
+  .card:nth-child(4n+1) { border-left: 0; padding-left: 0; }
+  .card .top { display: flex; align-items: center; justify-content: space-between; height: 46px; }
+  .card svg { width: 46px; height: 46px; }
+  .card .kicker { margin-top: 4px; }
+  .card h2 { font-size: 26px; line-height: 29px; letter-spacing: -0.5px; margin-top: 4px; }
+  .ico { fill: none; stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  .foot { font: 11px/20px Helvetica, Arial, sans-serif; letter-spacing: 0.6px; color: #4a453b; display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+  <div class="strip"><span>WORLD NEWS</span><span>THE DAY ON ONE PAGE</span><span>9 STORIES &middot; 6 CONTINENTS</span></div>
+  <div class="date">Wednesday, 25 November 2026</div>
+  <div class="double"></div>
+
+  <div class="lead">
+    <div class="num">1</div>
+    <div>
+      <div class="kicker">Markets &middot; New York</div>
+      <h1>World stocks tumble as US proposes sweeping tariffs</h1>
+      <p>Nasdaq &minus;3.9% &middot; S&amp;P 500 &minus;2.7% &middot; world index &minus;2.35%</p>
+    </div>
+    <svg viewBox="0 0 150 118" class="ico">
+      <path d="M8 8v100h136" />
+      <path d="M8 40h136M8 74h136" stroke="#8d8676" stroke-width="1" stroke-dasharray="3 5" />
+      <path d="M12 34l18-8 14 10 16-14 14 8 12 22 14 6 12 26 14 4" stroke="#a8201a" stroke-width="5" />
+      <path d="M126 70v20h-20" stroke="#a8201a" stroke-width="5" transform="translate(4 2)" />
+    </svg>
+  </div>
+  <div class="rule"></div>
+
+  <svg id="map" viewBox="0 0 984 334"></svg>
+
+  <div class="cards">
+    <div class="card">
+      <div class="top"><div class="num">2</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M23 4c7 7 9 16 7 27H16C14 20 16 11 23 4z"/><circle cx="23" cy="17" r="3.4"/><path d="M16 26l-7 8 8-1M30 26l7 8-8-1M20 35l3 8 3-8"/></svg></div>
+      <div class="kicker">Space &middot; China</div>
+      <h2>China launches crew with first Pakistani astronaut</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">3</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M4 42h38M8 42V24h10v18M24 42V16h8v26M36 42V28h4v14"/><path d="M28 12c-3-3 1-5 0-9 4 3 5 6 3 9" stroke="#a8201a"/><path d="M11 20c-2-3 1-4 1-7 3 2 4 5 2 7" stroke="#a8201a"/></svg></div>
+      <div class="kicker">Energy &middot; Saudi Arabia</div>
+      <h2>Houthis claim strike on Saudi oil refinery</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">4</div>
+        <svg viewBox="0 0 46 46" class="ico"><rect x="3" y="20" width="26" height="14" rx="7"/><path d="M29 24h8l5 6v4H29z"/><circle cx="11" cy="37" r="3.6"/><circle cx="35" cy="37" r="3.6"/><path d="M16 15c-4-4 1-7 0-12 5 4 7 8 4 12" stroke="#a8201a"/></svg></div>
+      <div class="kicker">Disaster &middot; Egypt</div>
+      <h2>Fuel tanker fire near Cairo kills dozens</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">5</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M3 7h7l5 22h22l4-15H12"/><circle cx="18" cy="37" r="3.4"/><circle cx="34" cy="37" r="3.4"/><path d="M20 20l5 5 9-10" stroke="#a8201a"/></svg></div>
+      <div class="kicker">Security &middot; Colombia</div>
+      <h2>Colombian troops free supermarket hostages</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">6</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M3 42h40M6 42V24h34v18M4 24h38M13 24a10 10 0 0 1 20 0M23 14V5M23 5h8v5h-8M13 30v8M23 30v8M33 30v8"/></svg></div>
+      <div class="kicker">Politics &middot; Germany</div>
+      <h2>Merz: Russia &ldquo;wants more than Ukraine&rdquo;</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">7</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M9 3h22l8 8v32H9z"/><path d="M31 3v8h8M15 17h16M15 24h16M15 31h7"/><path d="M26 36c3-5 5 3 8-2 1-2 2-1 3 1" stroke="#a8201a"/></svg></div>
+      <div class="kicker">Diplomacy &middot; Pacific</div>
+      <h2>Australia, Solomon Islands sign security treaty</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">8</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M5 43h36M9 43V11h22v32M15 43V31h10v12"/><path d="M15 17h4M22 17h4M15 24h4M22 24h4"/><path d="M33 4l10 10M43 4L33 14" stroke="#a8201a" stroke-width="3"/></svg></div>
+      <div class="kicker">Diplomacy &middot; Korea</div>
+      <h2>North Korea orders Swiss office shut</h2>
+    </div>
+    <div class="card">
+      <div class="top"><div class="num">9</div>
+        <svg viewBox="0 0 46 46" class="ico"><path d="M3 43h40M8 43V20l5-3 4 5 5-6 5 4v23M27 43V27h11v16M13 28v6M20 28v6M32 32v5"/><path d="M31 4l3 6 6-2-3 6 5 4-7 1" stroke="#a8201a"/></svg></div>
+      <div class="kicker">Conflict &middot; Gaza</div>
+      <h2>Israeli air strike kills four in Gaza</h2>
+    </div>
+  </div>
+  <div class="foot"><span>Numbers on the map match the stories.</span><span>As reported on the day by Reuters, AP, AFP, Al Jazeera, CNN and Euronews.</span></div>
+
+<script>
+// A hand-drawn, low-detail world: each outline is a list of [longitude, latitude] corners.
+const LAND = [
+  // North and Central America
+  [[-168,66],[-156,71],[-140,70],[-125,70],[-110,68],[-95,72],[-82,73],[-78,68],[-82,63],[-94,60],[-88,56],[-80,52],[-79,58],[-70,62],[-64,60],[-60,54],[-56,52],[-66,48],[-64,45],[-70,43],[-74,40],[-76,35],[-81,31],[-80,25],[-82,29],[-85,30],[-90,29],[-97,27],[-97,22],[-94,18],[-90,21],[-87,21],[-88,16],[-83,15],[-83,10],[-79,9],[-77,8],[-80,7],[-85,10],[-88,13],[-94,16],[-105,20],[-109,27],[-113,31],[-117,33],[-121,35],[-124,40],[-124,48],[-130,54],[-135,58],[-142,60],[-150,60],[-158,57],[-165,54.5],[-160,58.5],[-165,62]],
+  // Greenland
+  [[-55,60],[-44,60],[-40,65],[-22,70],[-20,76],[-30,80],[-50,80],[-68,78],[-60,76],[-55,70],[-52,65]],
+  // South America
+  [[-77,8],[-72,12],[-62,10.5],[-52,5],[-50,0],[-44,-2.5],[-35,-6],[-39,-14],[-41,-22],[-48,-26],[-53,-34],[-58,-38.5],[-65,-41],[-66,-47],[-69,-52],[-68,-55],[-74,-52],[-75,-46],[-73,-37],[-71,-30],[-70,-18],[-76,-14],[-81,-6],[-80,-2],[-78,2]],
+  // Europe and Asia
+  [[-9,37],[-9,43],[-2,43.5],[-1,46],[-5,48.5],[2,51],[8,54],[8,57],[10.5,57.5],[10,54],[14,54],[20,54.5],[21,57],[24,59.5],[30,60],[23,60],[21.5,63],[25,65.5],[22,66],[17.5,62],[18.5,60],[16.5,56.5],[13,55.5],[11,59],[7,58],[5,61],[12,66],[20,70],[28,71],[40,67.5],[44,68],[60,69],[68,69],[73,72],[87,75],[105,77.5],[113,74],[130,71],[140,72.5],[160,70],[170,69],[180,68.5],[180,65],[178,62.5],[170,60],[163,57],[162,54],[156,51],[156,57],[155,59],[143,59],[135,55],[141,53],[140,48],[135,43.5],[130,42.5],[127.5,39.5],[129.5,37],[129,35],[126.5,34.5],[126,37],[124.5,40],[121.5,39],[122,40.5],[118,39],[122.5,37],[119.5,35],[122,31],[121,28],[117,23.5],[110,21],[108,21.5],[106,19],[109,13],[107,10.5],[105,9],[100.5,13.5],[99.5,10],[103.5,1.5],[101,3],[98.5,8],[97.5,16],[94,18],[91.5,22.5],[87,21],[80,15.5],[80,10],[77.5,8],[73,18],[72.5,21],[69,22],[66.5,25],[61.5,25],[57,27],[51.5,28],[48,30],[50,26.5],[51.5,24],[56,26],[59.5,22.5],[55,17],[45,12.5],[43,13],[39,21],[35,28],[34.5,29.5],[32.5,30],[34.5,31.5],[36,36],[30,36.5],[27,37],[26.5,40],[29,41],[35,42],[41,41.5],[38,45],[33.5,45],[31,46.5],[28,43],[23.5,40.5],[23,36.5],[21,39],[19.5,42],[14,45],[12.5,44],[16,41.5],[18.5,40],[16,38],[15,40.5],[12,42.5],[8.5,44.5],[3,43.5],[0,39.5],[-2,37],[-5.5,36]],
+  // Africa
+  [[-5.5,35.5],[10,37],[11,33.5],[20,32.5],[25,32],[32.5,31],[34,27],[37,21],[39.5,15.5],[43,12],[51,12],[48,5],[41,-2],[39,-7],[40.5,-15],[35,-20],[35.5,-24],[32.5,-28],[27,-34],[20,-35],[18,-33],[15,-27],[12,-17],[13.5,-9],[9,-1],[9.5,4],[5,6],[-4,5],[-8,4.5],[-13,8.5],[-17,14.5],[-16,20],[-13,27.5],[-9.5,31]],
+  // Australia
+  [[114,-22],[114,-34],[118,-35],[124,-33.5],[131,-31.5],[135,-35],[140,-38],[147,-39],[150,-37],[153,-31],[153,-25],[146,-19],[142.5,-11],[141,-17],[136,-12],[131,-12],[126,-14],[122,-18]],
+  // Islands
+  [[-5,50],[1,51],[0,53.5],[-2,56],[-3,58.5],[-6,57.5],[-3.5,54],[-5,52]],
+  [[-10,52],[-6,52],[-6,55],[-9,54.5]],
+  [[-24,65],[-14,65],[-15,66.3],[-22,66.3]],
+  [[130,31.5],[131,34],[136,34],[140,35.5],[142,39.5],[141.5,43],[145,43.5],[141.5,45.5],[140,42],[139.5,38.5],[136,36.5],[132,35],[130,33.5]],
+  [[44,-25],[47,-25],[50,-15.5],[49,-12],[44,-17]],
+  [[95.5,5.5],[104,-2],[106,-6],[102,-4],[97,2]],
+  [[109,1.5],[110,-3],[116,-4],[118.5,1],[117,7],[113,3]],
+  [[106,-6.2],[114.5,-7.5],[114,-8.6],[106.5,-7.5]],
+  [[119.5,-5.5],[121,-1],[125,1.5],[120,1],[119.5,-3]],
+  [[131,-1],[141,-2.5],[147.5,-6],[150.5,-10.5],[143,-9],[138,-8],[132.5,-4]],
+  [[120.5,18.5],[122.3,17],[124,12.5],[126.3,7],[122,7.5],[120,14]],
+  [[173,-34.8],[178.3,-37.8],[175.3,-41.6],[173.5,-39.5]],
+  [[172.7,-40.6],[174.2,-41.8],[170.5,-46.3],[166.6,-46],[168.5,-43.8]],
+  [[80,9.5],[81.8,7.5],[80.5,6],[79.8,8]],
+  [[121.5,25],[121,22],[120.2,23]],
+  [[-85,22],[-80,23],[-74.5,20.2],[-77.5,19.9]],
+  [[-74.4,19.8],[-68.5,18.5],[-71,17.8]]
+];
+
+// Where each story happened: number, longitude, latitude, and how far the pin sits from the spot.
+const PINS = [
+  [1, -74.0, 40.7, 0, 0],     // New York
+  [2, 100.3, 40.9, 0, 0],     // Jiuquan launch centre
+  [3, 50.1, 26.6, 26, 12],    // Ras Tanura
+  [4, 31.2, 30.0, -28, 16],   // Giza
+  [5, -75.5, 10.4, 0, 0],     // Cartagena
+  [6, 13.4, 52.5, 0, 0],      // Berlin
+  [7, 160.0, -9.4, 0, 0],     // Honiara
+  [8, 125.8, 39.0, 0, 0],     // Pyongyang
+  [9, 34.4, 31.4, 4, -30]     // Gaza
+];
+
+const W = 984, H = 334, WEST = -170, EAST = 182, NORTH = 80, SOUTH = -57;
+const px = lon => ((lon - WEST) / (EAST - WEST) * W).toFixed(1);
+const py = lat => ((NORTH - lat) / (NORTH - SOUTH) * H).toFixed(1);
+
+let svg = '';
+for (const shape of LAND) {
+  svg += '<path d="M' + shape.map(([lon, lat]) => px(lon) + ' ' + py(lat)).join('L') + 'Z" fill="#e2d8c1" stroke="#8d8676" stroke-width="1.3" stroke-linejoin="round"/>';
+}
+for (const [n, lon, lat, dx, dy] of PINS) {
+  const x = +px(lon), y = +py(lat), cx = x + dx, cy = y + dy;
+  if (dx || dy) svg += '<path d="M' + x + ' ' + y + 'L' + cx + ' ' + cy + '" stroke="#141210" stroke-width="1.6"/><circle cx="' + x + '" cy="' + y + '" r="3" fill="#141210"/>';
+  svg += '<circle cx="' + cx + '" cy="' + cy + '" r="14" fill="#a8201a" stroke="#f3ead6" stroke-width="2"/>';
+  svg += '<text x="' + cx + '" y="' + (cy + 7) + '" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="20" fill="#fff">' + n + '</text>';
+}
+document.getElementById('map').innerHTML = svg;
+</script>
+</body>
+</html>
